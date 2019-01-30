@@ -1,0 +1,255 @@
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: #f4f3f3;
+
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px 0;
+    text-align: center;
+    background: #fff;
+}
+
+/*header style-start*/
+
+.background-img {
+    width: auto;
+    height: 500px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.my-img {
+    height: 300px;
+    width: auto;
+    border: 5px solid #fc3c3c;
+    border-radius: 150px;
+}
+
+.header-heading {
+    padding: 10px 50px 20px 50px;
+    margin: -20px 0 0 0;
+    border-top-left-radius: 100px;
+    border: 5px solid white;
+    color: white;
+
+}
+
+.portfolio {
+    background-color: #00ADB5;
+    font-size: 60px;
+}
+
+.name {
+    background-color: #f8b500;
+    margin-left: 50px;
+}
+
+.surname {
+    background-color: #fc3c3c;
+    margin-left: 100px;
+}
+
+#main-nav {
+    background: #393E46;
+
+}
+
+.scroll {
+    top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover {
+    color: #00adb5;
+}
+
+
+.separate img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.section-title {
+    margin: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.section-title::before,
+.section-title::after {
+    content: " ";
+    width: 40px;
+    height: 20px;
+    background-color: #fc3c3c;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin: 0 30px;
+}
+
+
+
+.lean {
+
+    overflow: hidden;
+    padding: 0;
+    margin: 20px;
+    position: relative;
+}
+
+
+
+.lean img {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.lean img:hover {
+    transform: scale(2) rotate(45deg);
+    -webkit-transform: scale(2) rotate(45deg);
+    -moz-transform: scale(2) rotate(45deg);
+    -o-transform: scale(2) rotate(45deg);
+    -ms-transform: scale(2) rotate(45deg);
+
+}
+
+
+#cards .lean img:hover {
+    transform: scale(1.5) rotate(-10deg);
+    -webkit-transform: scale(1.5) rotate(-10deg);
+    -moz-transform: scale(1.5) rotate(-10deg);
+    -o-transform: scale(1.5) rotate(-10deg);
+    -ms-transform: scale(1.5) rotate(-10deg);
+
+}
+
+#website .lean img:hover {
+    transform: none;
+
+}
+
+#website .lean a {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#website .lean a {
+
+    opacity: 0;
+    color: #393E46;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: block;
+    width: 100%;
+    transform: rotate(45deg) translateY(-30%);
+}
+
+
+#website .lean:hover a {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #00ADB5;
+    padding: 10px;
+    text-decoration: none;
+}
+
+hr.line,
+hr.line2,
+hr.line3 {
+    background: #F8B500;
+    border-radius: 10px;
+    border: 0 transparent;
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(0.5deg);
+}
+
+hr.line:after,
+hr.line:before,
+hr.line2:after,
+hr.line2:before,
+hr.line3:after,
+hr.line3:before {
+
+    border: 0 transparent;
+    content: "";
+    height: 100%;
+    left: 4%;
+    position: absolute;
+    top: 0;
+    width: 10%;
+}
+
+hr.line:after,
+hr.line:before {
+    background: #00ADB5;
+    border-radius: 10px;
+    border: 0 transparent;
+    content: "";
+    height: 100%;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    width: 5%;
+}
+
+
+hr.line2:after,
+hr.line2:before {
+    background: #00ADB5;
+    border-radius: 10px;
+    border: 0 transparent;
+    content: "";
+    height: 100%;
+    left: 10%;
+    position: absolute;
+    top: 0;
+    width: 10%;
+}
+
+hr.line3:after,
+hr.line3:before {
+    background: #00ADB5;
+    border-radius: 10px;
+    border: 0 transparent;
+    content: "";
+    height: 100%;
+    left: 15%;
+    position: absolute;
+    top: 0;
+    width: 15%;
+}
+
+hr.line:before,
+hr.line2:before,
+hr.line3:before {
+    background: #FC3C3C;
+    border-radius: 10px 0 0 10px;
+    left: 0;
+}

@@ -1,0 +1,5 @@
+granat #393E46
+jasny niebieski #00ADB5
+biały FFF4E0
+zolty F8B500
+czerwony FC3C3C
