@@ -6,12 +6,19 @@ body {
 
 }
 
+.row {
+    margin: 0;
+}
+
 section {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
     padding: 0;
     text-align: center;
     background: #fff;
+}
+
+section#contact {
+    margin: 0;
 }
 
 /*header style-start*/
@@ -31,8 +38,9 @@ header {
 .my-img {
     height: 300px;
     width: auto;
-    border: 5px solid #fc3c3c;
-    border-radius: 150px;
+    border-top-right-radius: 100px;
+    border: 5px solid white;
+
 }
 
 .header-heading {
@@ -90,16 +98,17 @@ header {
     font-size: 2.5rem;
     font-weight: 700;
     display: inline-block;
+    background: white;
 }
 
 .section-title::before,
 .section-title::after {
     content: " ";
-    width: 40px;
-    height: 20px;
+    width: 2px;
+    height: 25px;
     background-color: #fc3c3c;
     display: inline-block;
-    transform: rotate(45deg);
+    transform: rotate(90deg);
     margin: 0 30px;
 }
 
@@ -190,7 +199,11 @@ hr.line3 {
     margin: 5px 0;
     overflow: hidden;
     position: relative;
-    transform: rotate(0.5deg);
+
+}
+
+hr.line3 {
+    margin-bottom: 0;
 }
 
 hr.line:after,
@@ -256,6 +269,39 @@ hr.line3:before {
     border-radius: 10px 0 0 10px;
     left: 0;
 }
+
+
+form input,
+form textarea {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid #FC3C3C;
+    padding: 5px 10px;
+}
+
+.btn-submit {
+    background-color: #393E46;
+    width: 30%;
+    border: none;
+    color: white
+}
+
+.btn-submit:hover {
+    background-color: #00ADB5;
+}
+
+.contact-img {
+
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
 
 footer {
     background: #393E46;
