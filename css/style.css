@@ -17,6 +17,10 @@ section {
     background: #fff;
 }
 
+section#website {
+    margin-top: 5px;
+}
+
 section#contact {
     margin: 0;
 }
@@ -24,15 +28,19 @@ section#contact {
 /*header style-start*/
 header {
     border-bottom: 2px solid #393E46;
+    box-shadow: 0 5px 2px -2px gray;
+    margin-top: 62px;
 }
 
 .background-img {
+
     width: auto;
     height: 500px;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .my-img {
@@ -43,28 +51,40 @@ header {
 
 }
 
+
+
+
+
 .header-heading {
-    padding: 10px 50px 20px 50px;
-    margin: -20px 0 0 0;
-    border-top-left-radius: 100px;
-    border: 5px solid white;
+
+
+    width: 500px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 32px solid transparent;
+    border-top: 0px solid white;
+    border-bottom-width: 80px;
+    border-bottom-style: solid;
+    line-height: 80px;
+    padding-left: 30px;
     color: white;
+    margin-top: -20px;
 
 }
 
 .portfolio {
-    background-color: #00ADB5;
+    border-bottom-color: #00ADB5;
     font-size: 60px;
 }
 
 .name {
-    background-color: #f8b500;
-    margin-left: 50px;
+    border-bottom-color: #f8b500;
+    margin-left: 75px;
 }
 
 .surname {
-    background-color: #fc3c3c;
-    margin-left: 100px;
+    border-bottom-color: #fc3c3c;
+    margin-left: 150px;
 }
 
 #main-nav {
@@ -284,16 +304,19 @@ form textarea {
     background-color: #393E46;
     width: 30%;
     border: none;
-    color: white
+    color: white;
+    margin: 30px auto;
+    outline: none;
 }
 
 .btn-submit:hover {
     background-color: #00ADB5;
+
 }
 
 .contact-img {
-
-    background-image: url(../img/background.jpg);
+    height: 500px;
+    background-image: url(../img/contact-img1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,5 +328,58 @@ form textarea {
 
 footer {
     background: #393E46;
-    height: 50px;
+    height: 30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        margin-top: 56px;
+    }
+
+    section {
+        margin: 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .header-heading {
+
+
+        width: 80vw;
+        height: 0px;
+        border-left: 0px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 0px solid white;
+        border-bottom-width: 50px;
+        border-bottom-style: solid;
+        line-height: 50px;
+        padding-left: 30px;
+        color: white;
+        margin-top: -15px;
+
+
+    }
+
+    .portfolio {
+
+        font-size: 25px;
+    }
+
+    .name {
+
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .surname {
+
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+
 }
